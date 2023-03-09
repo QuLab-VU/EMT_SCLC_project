@@ -1,0 +1,29 @@
+name: emt_sclc_env
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python
+  - jupyter
+  - seaborn
+  - anndata
+  - jupyterlab
+  - leidenalg
+  - matplotlib
+  - pandas
+  - umap-learn
+  - graph-tool
+  - numpy
+  - scipy
+  - cython
+  - numba
+  - scikit-learn
+  - h5py
+  - click
+  - cellrank
+  - python-annoy
+  - pip:
+    - scanorama 
+    - scrublet
+    - magic-impute
+    - mazebox

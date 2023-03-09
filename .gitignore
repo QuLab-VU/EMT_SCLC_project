@@ -1,0 +1,8 @@
+# Keep big datasets out of repo
+*.h5ad
+
+# hidden/temp files
+.DS_Store
+.ipynb_checkpoints
+~*
+.pyc*
